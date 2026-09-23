@@ -1,0 +1,22 @@
+/*Day-5*/
+/*universal selector*/
+*{
+    margin:0%;
+    font-family:sans-serif;
+}
+#navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(109, 2, 109);
+    padding:5px;
+}
+#navbar a{
+    color:white;
+    font-size:15px;
+    text-decoration:none;
+}
+#navbar a:hover{
+    text-decoration:underline;
+}
