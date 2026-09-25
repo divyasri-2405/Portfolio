@@ -20,3 +20,66 @@
 #navbar a:hover{
     text-decoration:underline;
 }
+/*Day-6*/
+#about{
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://img.magnific.com/free-vector/gradient-purple-color-background-modern-wave-abstract-designs_343694-2361.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat:no-repeat;
+    width:100vw;
+    height:70vh;
+    background-size:cover;
+}
+.aboutleft{
+    width:50%;
+    padding:50px;
+}
+.aboutright{
+    width:50%;
+    padding:5px 100px;
+}
+.aboutleft h1{
+    margin-bottom: 20px;
+    color: white;
+}
+.aboutleft h2{
+    margin-bottom:20px;
+    color:white;
+}
+.aboutleft p{
+    margin-bottom:20px;
+    color:white;
+}
+.aboutbtns button{
+    background-color: darkred;
+    padding: 10px;
+    font-weight:bold;
+    border:none;
+}
+.aboutbtns button:hover{
+    background-color:white;
+    border:2px solid black;
+}
+.section2{
+    text-align:center;
+    margin:20px 0px;
+}
+#achievements{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+}
+.card{
+   height: 300px;
+    border:0.6px solid grey;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:2px 3px 10px grey;
+}
+.card img{
+    width: 100px;
+}
+
