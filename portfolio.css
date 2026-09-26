@@ -51,16 +51,27 @@
     color:white;
     padding: 50px 50px 50px 100px;
 }
-.aboutbtns button{
+.aboutbtns button {
     background-color: gold;
-    margin-top:40px;
+    margin-top: 40px;
     padding: 10px;
-    font-weight:bold;
-    border:none;
+    font-weight: bold;
+    border: none;
 }
-.aboutbtns button:hover{
-    background-color:white;
-    border:2px solid black;
+
+.aboutbtns button:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.aboutbtns a {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutbtns a:hover {
+    text-decoration: underline;
+    color: black;
 }
 .section2{
     text-align:center;
@@ -152,6 +163,10 @@ th{
 #contactform input{
     padding:10px;
 }
+#contact iframe{
+    margin-left: 90px;
+    margin-top: 40px;
+}
 #contactform textarea{
     padding:30px;
 }
@@ -161,4 +176,72 @@ th{
     color:white;
     padding:10px;
     margin-top:10px;
+}
+/* Declaration */
+#declaration {
+text-align: center;
+padding: 30px;
+background-color: #f5f5f5;
+}
+
+#declaration p {
+margin-bottom: 15px;
+font-size: 16px;
+}
+
+.name {
+font-weight: bold;
+font-size: 18px;
+color: rgb(84, 1, 84);
+}
+
+/* Footer */
+#footer {
+background-color: rgb(84, 1, 84);
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+#footer p {
+margin-bottom: 15px;
+}
+
+.social-links a {
+color: gold;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+.social-links a:hover {
+color: white;
+text-decoration: underline;
+}
+
+/*DAY-8*/
+@media all and (max-width:576px){
+    #navbar{
+        background-color:blue;
+    }
+}
+@media all and (min-width:576px) and (max-width:768px){
+    #navbar{
+        background-color:rgb(4,91,52);
+    }
+}
+@media all and (min-width:768px) and (max-width:992px){
+    #navbar{
+        background-color:rgb(91,69,4);
+    }
+}
+@media all and (min-width:992px) and (max-width:1200px){
+    #navbar{
+        background-color: orange;
+    }
+}
+@media all and (min-width:1200px){
+    #navbar{
+        background-color:rgb(109, 2, 109);
+    }
 }
